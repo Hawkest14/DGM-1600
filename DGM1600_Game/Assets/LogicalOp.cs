@@ -13,6 +13,11 @@ public class LogicalOp : MonoBehaviour {
 
 	public string lightSide = "Obi Wan";
 
+	public int num1 = 10;
+
+	public float num2 = 10.5f;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -36,17 +41,26 @@ public class LogicalOp : MonoBehaviour {
 	// 	}
 	// else 
 	// 	print("Hans shot first.");
-	if(lightSide == "Obi Wan" || darkSide == "Jar Jar Binks"){
-		print("Meeeza Evil Bad Bad Lorda");
+	// if(lightSide == "Obi Wan" || darkSide == "Jar Jar Binks"){
+	// 	print("Meeeza Evil Bad Bad Lorda");
 	
+	// }
+	// else if(lightSide == "Boba Fett" || darkSide == "Darth Maul"){
+	// 	print("As you wish, my Master");
+	// }
+	// else{
+	// 	print("Yousa in bad doo doo tis time.");
+	// }
+	if(num1 == 10 && num2 == 10.5){
+		print("Thing King");
 	}
-	else if(lightSide == "Boba Fett" || darkSide == "Darth Maul"){
-		print("As you wish, my Master");
+	else if (num1 == 10 || num2 == 10){
+		print("Chocolate Thunder!");
 	}
 	else{
-		print("Yousa in bad doo doo tis time.");
+		print("Ben");
 	}
-	}
+}
 	
 
 	// Update is called once per frame
